@@ -1,0 +1,24 @@
+[project]
+name = "turbo_race"
+version = "1.0.0"
+description = "Custom Windows Application"
+author = "APKHACK929"
+
+[target]
+platform = "windows"
+architecture = "x64"
+format = "exe"
+
+[build]
+engine = "custom"
+optimization = true
+compression = true
+
+[application]
+entry = "main.py"
+icon = "assets/icon.ico"
+console = false
+
+[output]
+directory = "dist"
+filename = "Turbo_race.exe"
